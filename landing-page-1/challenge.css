@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  background-image: url(/landing-page-1/assets/chaigym.png);
+  background-size: cover;
+  color: #ffffff;
+}
+
+.navbar {
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(107, 107, 107);
+  padding: 0 100px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 24px;
+  font-weight: 600;
+  
+}
+
+.logo img {
+  border-radius: 50%;
+}
+
+.nav-links a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+
+}
+
+.nav-links a:hover {
+  color: #f56600;
+}
+
+.hero {
+  height: 89vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.hero-content h1 {
+  margin: 40px 0 20px 0;
+  font-size: 54px;
+}
+
+.hero-content p {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.cta-button {
+  font-size: 20px;
+  padding: 18px 40px;
+  border-radius: 10px;
+  border: none;
+  color: #000000;
+  background-color: #f56600;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #e25e00
+}
+
+.features {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgba(0, 0, 0, 0.856);
+  margin:40px;
+  border-radius: 20px;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 180px;
+  width: 340px;
+  margin: 80px;
+  border: 2px solid #f56600;
+  padding: 16px 30px;
+  border-radius: 20px;
+}
+
+.feature h3 {
+  font-size: 21px;
+  color: #f56600;
+  margin: 12px 0;
+}
+
+.feature p {
+  font-size: 18px;
+}

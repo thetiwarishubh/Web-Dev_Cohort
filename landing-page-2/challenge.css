@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1.6;
+  background-image: url(./assets/chaicohort.png);
+  background-size: cover;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6); /* dark overlay */
+  z-index: -1;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #313131;
+  height: 90px;
+  align-items: center;
+  padding: 0 100px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  color: #02ff02;
+  font-size: 24px;
+  font-weight: 600;
+  gap: 10px;
+}
+
+.logo img {
+  border-radius: 50%;
+  border: 2px solid #02ff02;
+}
+
+.menu a {
+  color: #ffffff;
+  padding: 0 20px;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: #02ff02;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 60px 0;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-content h1 {
+  margin: 20px 0;
+  font-size: 40px;
+  color: #02ff02;
+}
+
+.hero-content p {
+  margin-bottom: 16px;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.hero-content img {
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: 2px solid #02ff02;
+}
+
+.enroll-button {
+  padding: 14px 40px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: none;
+  background-color: #02ff02;
+}
+
+.enroll-button:hover {
+  box-shadow: 1px 1px 1px #02ff02;
+}
+
+.highlights {
+  display: flex;
+  justify-content: space-around;
+  background-color: #313131;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.highlight-card {
+  text-align: center;
+  margin: 60px 0;
+  padding: 20px 30px;
+  height: 190px;
+  width: 300px;
+  background-color: #666464;
+  border-radius: 10px;
+}
+
+.highlight-card h3 {
+  color: #02ff02;
+  padding: 10px;
+}
+
+.highlight-card p {
+  color: #ffffff;
+}
